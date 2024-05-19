@@ -32,9 +32,19 @@ a {
   text-decoration: none;
 }
 a :hover {
-  color: tomato;
+  color: rgb(253, 115, 91);
 }
 
 i {
   padding-right: 10px;
+}
+@media (max-width: 600px) {
+  body {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    flex-direction: row;
+  }
 }
